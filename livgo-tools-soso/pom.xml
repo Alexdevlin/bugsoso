@@ -1,0 +1,25 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.livgo</groupId>
+    <artifactId>livgo-tools-soso</artifactId>
+    <packaging>war</packaging>
+
+    <parent>
+        <groupId>com.livgo</groupId>
+        <artifactId>livgo-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../livgo-parent/pom.xml</relativePath>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.livgo</groupId>
+            <artifactId>livgo-core</artifactId>
+            <version>${livgo.core.version}</version>
+        </dependency>
+    </dependencies>
+</project>
+
+
+

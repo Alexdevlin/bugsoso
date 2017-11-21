@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bugsoso</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+
+    <!--<link rel="Shortcut Icon" href=../ico/favicon.png>-->
+    <link rel="stylesheet" href="../assets/bootstrap/readable/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../assets/bootstrap/assets/css/custom.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../assets/bootstrap/bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="../assets/bootstrap/bower_components/respond/dest/respond.min.js"></script>
+
+    <![endif]-->
+    <style type="text/css">
+        em {
+            color: red
+        }
+
+        strong {
+            color: red
+        }
+
+        .highlight {
+            color: red
+        }
+    </style>
+</head>
+<body>
+<!--页面top-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <!--<li><img src="../ico/logo.png"></li>-->
+                <li><a href="/soso/index.html">Bugsoso</a></li>
+                <li><a href="">|</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle dropdown-trigger" data-toggle="dropdown" href="#">
+                        开发<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://mvnrepository.com/" target="_blank">Maven公共库</a></li>
+                        <li><a href="http://www.findjar.com" target="_blank">FindJAR</a></li>
+                        <li><a href="http://www.jq22.com/index.aspx" target="_blank">jQuery插件库</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle dropdown-trigger" data-toggle="dropdown" href="#">
+                        参考文档<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://spring.io/projects" target="_blank">Spring官方文档</a></li>
+                        <li><a href="https://springcloud.cc/" target="_blank">Spring Cloud中文文档</a></li>
+                        <li><a href="http://dubbo.io/" target="_blank">Dubbo官方文档</a></li>
+                        <li><a href="https://dev.mysql.com/doc/" target="_blank">MySQL官方文档</a></li>
+                        <li><a href="http://www.w3school.com.cn/" target="_blank">W3school参考手册</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle dropdown-trigger" data-toggle="dropdown" href="#">
+                        开放平台<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.oracle.com/cn/index.html" target="_blank">Oracle</a></li>
+                        <li><a href="https://open.alipay.com/platform/home.htm" target="_blank">蚂蚁金服开放平台</a></li>
+                        <li><a href="http://developer.baidu.com/" target="_blank">百度开发者</a></li>
+                        <li><a href="http://open.qq.com/" target="_blank">腾讯开放平台</a></li>
+                        <li><a href="https://open.weixin.qq.com/" target="_blank">微信开放平台</a></li>
+                        <li><a href="http://lbs.amap.com/" target="_blank">高德开放平台</a></li>
+                        <li><a href="https://www.aliyun.com" target="_blank">阿里云</a></li>
+                        <li><a href="https://cloud.baidu.com" target="_blank">百度云</a></li>
+                        <li><a href="https://cloud.tencent.com" target="_blank">腾讯云</a></li>
+                        <li><a href="https://aws.amazon.com/cn/" target="_blank">亚马逊AWS</a></li>
+                        <li><a href="https://docs.jiguang.cn/jpush/guideline/intro/" target="_blank">极光推送</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle dropdown-trigger" data-toggle="dropdown" href="#">
+                        学习网址<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.infoq.com/cn/" target="_blank">InfoQ</a></li>
+                        <li><a href="https://www.csdn.net/" target="_blank">CSDN</a></li>
+                        <li><a href="http://www.oschina.net/" target="_blank">开源中国</a></li>
+                        <li><a href="https://www.cnblogs.com/" target="_blank">博客园</a></li>
+                        <li><a href="http://www.51cto.com/" target="_blank">51CTO</a></li>
+                        <li><a href="http://www.jikexueyuan.com" target="_blank">极客学院</a></li>
+                        <li><a href="https://yq.aliyun.com/" target="_blank">云栖社区</a></li>
+                        <li><a href="https://segmentfault.com/" target="_blank">SegmentFault</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle dropdown-trigger" data-toggle="dropdown" href="#">
+                        实用工具<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu ">
+                        <li><a href="http://tool.chinaz.com/" target="_blank">ChinaZ站长工具</a></li>
+                        <li><a href="https://www.bejson.com/jsonviewernew/" target="_blank">JSON View</a></li>
+                        <li><a href="http://www.css88.com/tool/html2js/" target="_blank">HTML转换工具</a></li>
+                        <li><a href="http://fanyi.youdao.com/" target="_blank">有道翻译</a></li>
+                        <li><a href="http://www.devstore.cn/service/newproductList/cla0.html"
+                               target="_blank">DevStore</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<!--页面center-->
+<div class="container">
+    <!--<div class="jumbotron" id="frame_banner">-->
+    <!--<h1>Browser</h1>-->
+    <!--<br>-->
+    <!--<br>-->
+    <!--</div>-->
+    <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-8 text-center">
+            <h1>SOSO</h1>
+        </div>
+        <div class="col-lg-3">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-8">
+            <form class="" role="search" id="searchForm">
+                <input id="sosoStr" type="text" class="form-control" placeholder="Search">
+            </form>
+        </div>
+        <div class="col-lg-3">
+            <button type="button" class="btn btn-default" onclick="soso(1,0)" id="sosoId">SOSO</button>
+            <button type="button" class="btn btn-default " onclick="toTranslate()">翻译</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!--<li><a href="">站内</a></li>-->
+                    <li><a href="javascript: void soso(1,0)">百度</a></li>
+                    <li><a href="javascript: void soso(2,0)">CSDN</a></li>
+                    <li><a href="javascript: void soso(4,0)">博客园</a></li>
+                    <li><a href="javascript: void soso(3,0)">开源中国</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--页面内容-->
+    <div id="frame_center">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="list-group" id="resultDivId">
+
+                </div>
+                <ul class="pagination pull-right">
+                    <li><a href="javascript: void soso(-1, -1)">上一页</a></li>
+                    <li><a href="javascript: void soso(-1, 1)">下一页</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <!--<li>-->
+                        <!--<input class="form-control" type="text" id="shareLinkName" placeholder="外链名称">-->
+                        <!--<input class="form-control" type="text" id="shareLinkUrl" placeholder="外链地址,请谨慎提交无审核">-->
+                        <!--<button class="btn btn-default" onclick="shareLinkUrl()">贡献外链</button>-->
+                    <!--</li>-->
+                    <li><a href="https://www.baidu.com/" target="_blank">百度</a></li>
+                    <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+                    <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+                    <li><a href="https://translate.google.cn" target="_blank">Google翻译</a></li>
+                    <li><a href="https://github.com/search" target="_blank">Github</a></li>
+                    <li><a href="http://www.iovweek.com/" target="_blank">车联网周刊</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--页面footer-->
+    <div id="frame_footer"></div>
+
+</div>
+<!--js引用-->
+<script src="../assets/js/jquery/jquery.min.js"></script>
+<script src="../assets/js/jquery/jquery.json.min.js"></script>
+<script src="js/common.js"></script>
+<script src="../assets/bootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/bootstrap/assets/js/custom.js"></script>
+<!--<div id="frame_modal"></div>-->
+<script>
+    $(document).ready(function () {
+        $(document).keydown(function (e) {
+            if (e.which == 13) {
+                $("#sosoId").click();
+                return false;
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+
+    var pnum = 1;
+    var stab = 1;
+
+    function soso(st, n) {
+        if (-1 != st) {
+            stab = st;
+        }
+        if (0 == n) {
+            pnum = 1
+        } else {
+            pnum = pnum + n;
+        }
+        var tipStr = "百度搜索无数据";
+        var str = $("#sosoStr").val();
+        if ("" == str) {
+            $('#resultDivId').html(tipStr);
+            return;
+        }
+
+        var url = '/baidusearch';
+        if (stab == 2) {
+            url = '/csdnsearch';
+            tipStr = "CSDN搜索无数据";
+        } else if (stab == 3) {
+            url = '/oschinasearch';
+            tipStr = "开源中国搜索无数据";
+        } else if (stab == 4) {
+            url = '/cnblogssearch';
+            tipStr = "博客园搜索无数据";
+        }
+        $.ajax({
+            type: 'POST',
+            url: url,
+            data: {"str": str, "pnum": pnum},
+            dataType: 'json',
+            success: function (data) {
+                $('#resultDivId').html(tipStr);
+                var appendStr = '';
+                if (data.status == 1 && data.result != '') {
+                    $.each(data.result, function (i, item) {
+
+                        appendStr += ['<div>',
+                            '                        <a href="',
+                            item['linkUrl'],
+                            '" target="_blank" class="list-group-item">',
+                            '                            <h4 class="list-group-item-heading">',
+                            item['title'],
+                            '                            </h4>',
+                            '                            <p class="list-group-item-text text-muted">',
+                            item['introContent'],
+                            '</p>',
+                            '                        </a>',
+                            '                    </div><br>'].join("");
+
+                    });
+                    $('#resultDivId').html(appendStr);
+                }
+            }
+        });
+    }
+
+    function toTranslate() {
+        var str = $("#sosoStr").val();
+        if ("" == str) {
+            return;
+        }
+        var url = "/baidutranslate";
+        $.ajax({
+            type: 'POST',
+            url: url,
+            data: {"str": str},
+            dataType: 'json',
+            success: function (data) {
+                $('#resultDivId').html('');
+                if (null != data && data.status == 1) {
+                    $('#resultDivId').html(data.result);
+                }
+            }
+        });
+    }
+
+    function shareLinkUrl() {
+        var shareLinkName = $("#shareLinkName").val();
+        var shareLinkUrl = $("#shareLinkUrl").val();
+        if ("" == shareLinkName || "" == shareLinkUrl) {
+            return;
+        }
+        var url = "/soso/share";
+        $.ajax({
+            type: 'POST',
+            url: url,
+            data: {"shareLinkName": shareLinkName, "shareLinkUrl": shareLinkUrl},
+            dataType: 'json',
+            success: function (data) {
+                if (null != data && data.status == 1) {
+                    window.location.reload();
+                } else {
+                    alert("不可为空，也可能含有特殊符号")
+                }
+            }
+        });
+    }
+
+</script>
+</body>
+</html>
