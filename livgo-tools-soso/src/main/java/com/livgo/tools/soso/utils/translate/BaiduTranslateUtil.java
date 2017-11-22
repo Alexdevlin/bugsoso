@@ -7,8 +7,8 @@ import com.livgo.common.util.valid.ValidUtil;
  */
 public class BaiduTranslateUtil {
 
-    private static final String APP_ID = "20171031000091854";
-    private static final String SECURITY_KEY = "XpOzei_23x5Kz6PsyHTK";
+    private static final String APP_ID = "";//自己的APPID
+    private static final String SECURITY_KEY = "";//自己的KEY
 
     public static String fanyi(String query){
         try {
